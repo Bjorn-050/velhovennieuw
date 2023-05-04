@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic);
+
+* {
+ font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+}
+
+html, body {
+ margin: 0;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+  }
+
+
+  ::-webkit-scrollbar-track {
+	background: rgba(234, 240, 246, 0);
+	opacity: 0;
+  }
+
+
+  ::-webkit-scrollbar-thumb {
+	background: #888;
+  }
+
+.container {
+ color: #000;
+}
+
+.title {
+ text-align: center;
+}
+
+.documenten {
+ background-color: #0050d8;
+ max-width: 30%;
+ text-align: center;
+ border-radius: 5px;
+ padding: 10px;
+ margin-left: 40%;
+ margin-right: 40%;
+ margin-top: 10%;
+ text-align: center;
+ text-decoration: none;
+}
+
+.edp {
+ background-color: #0050d8;
+ max-width: 30%;
+ text-align: center;
+ border-radius: 5px;
+ padding: 10px;
+ margin-left: 40%;
+ margin-right: 40%;
+ margin-top: 10px;
+ text-align: center;
+ text-decoration: none;
+}
+
+.documenten a, .edp a {
+ text-decoration: none;
+ color: #fff;
+ display: inline-block;
+}
+
+.documenten a:hover, .edp a:hover {
+ transform: scale(120%);
+ color: #fff;
+}
